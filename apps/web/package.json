@@ -1,0 +1,42 @@
+{
+  "name": "@biometric/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5000",
+    "build": "node ../../scripts/render-web-build.js",
+    "start": "next start -p ${PORT:-5000}",
+    "lint": "eslint \"app/**/*.{ts,tsx}\" \"src/**/*.{ts,tsx}\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/node": "^24.13.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "dotenv": "^17.4.2",
+    "lucide-react": "0.554.0",
+    "next": "16.2.9",
+    "postcss": "8.5.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "ts-jest": "^29.4.5"
+  },
+  "optionalDependencies": {
+    "@next/swc-linux-arm64-gnu": "^16.2.9",
+    "@next/swc-linux-arm64-musl": "^16.2.9",
+    "@next/swc-linux-x64-gnu": "^16.2.9",
+    "@next/swc-linux-x64-musl": "^16.2.9",
+    "sharp": "^0.34.5"
+  }
+}
