@@ -30,7 +30,7 @@
     "postcss": "8.5.10"
   },
   "engines": {
-    "node": "20.19.5"
+    "node": ">=20.19.5 <25"
   },
   "dependencies": {
     "postcss": "8.5.10"
